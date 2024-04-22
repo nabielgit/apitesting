@@ -20,9 +20,9 @@
 ## Install and build Docker
 - Create a file called Dockerfile in local directory.
 - Download and Install Docker Desktop.
-- Make sure Docker engine is Docker-linux in settings.
+- Go to settings in Docker desktop. Go to builds, make sure it is set to Desktop-linux in settings.
 
-Execute commands:
+### Execute commands in terminal:
 
 To build image, name it using -t pythonpytestapi and -f for Dockerfile 
 
@@ -33,6 +33,8 @@ To run, -it interactive terminals, --name for container name, pythonpytestapi is
 `docker run -it --name pythonpytestapi pythonpytestapi` 
 
 ### Go to Docker desktop application
-- Select images 
+- Select Images 
 - Select pythonpytestapi 
 - Hit run to create container
+- Go to Containers
+- Select container and hit run
