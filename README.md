@@ -16,3 +16,11 @@
 
 ### run from terminal
 - `pytest -v -s --html=report.html --self-contained-html`
+
+## Install and build Docker
+- Create a Dockerfile in directory
+
+Run commands:
+` docker build -t `
+
+` `
