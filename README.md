@@ -18,13 +18,21 @@
 - `pytest -v -s --html=report.html --self-contained-html`
 
 ## Install and build Docker
-- Create a Dockerfile in directory.
-- Download and Install Docker desktop.
-- Make sure Docker engine, Docker-linux
+- Create a file called Dockerfile in local directory.
+- Download and Install Docker Desktop.
+- Make sure Docker engine is Docker-linux in settings.
 
 Execute commands:
-`docker build -t pythonpytestapi -f Dockerfile .` To build image, name it using -t pythonpytestapi and -f for Dockerfile 
 
-`docker run -it --name pythonpytestapi pythonpytestapi` To run, -it interactive terminals, --name for container name, pythonpytestapi is the image name in this case
+To build image, name it using -t pythonpytestapi and -f for Dockerfile 
 
-### Go to Docker desktop application > images, then hit run pythonpytestapi to create container
+`docker build -t pythonpytestapi -f Dockerfile .` 
+
+To run, -it interactive terminals, --name for container name, pythonpytestapi is the image name in this case
+
+`docker run -it --name pythonpytestapi pythonpytestapi` 
+
+### Go to Docker desktop application
+- Select images 
+- Select pythonpytestapi 
+- Hit run to create container
