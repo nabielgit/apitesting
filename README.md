@@ -6,7 +6,7 @@
 - `brew info` , to check if brew is installed
 - `brew install python3`, use homebrew to install latest version of python and pip
 
-### check python installed by running command in terminal:
+### Check python installed by running command in terminal:
 - `python3 -version`
 
 ### In Visual Studio Code
@@ -22,7 +22,7 @@
 - `pip3 install requests`, to install requests packages
 - `pip3 install pytest-html`, to install html test execution reporter
 
-### run from terminal
+### Run tests from terminal
 - `pytest -v -s --html=report.html --self-contained-html`
 
 ## Install and build Docker
