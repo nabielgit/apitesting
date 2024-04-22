@@ -22,6 +22,9 @@
 - `pip3 install requests`, to install requests packages
 - `pip3 install pytest-html`, to install html test execution reporter
 
+### Create requirements.txt
+`pip freeze > requirements.txt`
+
 ### Run tests from terminal
 - `pytest -v -s --html=report.html --self-contained-html`
 
