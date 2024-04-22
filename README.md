@@ -4,7 +4,7 @@
 
 ### Inside terminal once brew is installed:
 - `brew info` , to check if brew is installed
-- `brew install python3`, installs latest version of homebrew python and pip
+- `brew install python3`, use homebrew to installs latest version of python and pip
 
 ### check python installed by running command in terminal:
 - `python3 -version`
