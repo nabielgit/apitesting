@@ -9,6 +9,14 @@
 ### check python installed by running command in terminal:
 - `python3 -version`
 
+### In Visual Studio Code
+- Go to Extensions and search for and install Python Environment Manager, Python Path, Python
+- Click Python, create virtual environment for workspace
+- Set python to brew version of Python3
+- Click terminal icon next to Venv, will auto launch virtual environment
+- Will execute following in terminal to auto activate venv in terminal
+- `source /Users/main/pythonPytestApi/.venv/bin/activate`
+
 ### Install packages needed to run test in command terminal:
 - `pip3 install -U pytest`, to install pytest
 - `pip3 install requests`, to install requests packages
